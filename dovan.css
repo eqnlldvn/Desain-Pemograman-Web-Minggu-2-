@@ -19,13 +19,13 @@ html {
 }
 
 body {
-  max-width: 800px;
-  margin: 24px auto;
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
   padding: 40px 44px 50px;
   overflow: hidden;
   background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   color: var(--text-dark);
   font-family: 'Segoe UI', Arial, sans-serif;
 }
